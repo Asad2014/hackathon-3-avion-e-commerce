@@ -11,7 +11,6 @@ const isPublicRoute = createRouteMatcher([
   '/category/(.*)',
   '/api/(.*)',
   '/admin-login'
-
 ]);
 
 export default clerkMiddleware(async (auth, request) => {
@@ -49,3 +48,5 @@ export const config = {
     '/(api|trpc)(.*)',
   ],
 };
+
+
