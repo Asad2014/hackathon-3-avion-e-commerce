@@ -96,17 +96,7 @@ console.log(inputValue);
               )}
             </div>
 
-            <Link
-              className="flex justify-center items-center md:hidden cursor-pointer"
-              href="/carts"
-            >
-              <MdOutlineShoppingCart />
-              <span className="flex justify-center items-center w-[20px] h-[20px] bg-red-500 mb-5 text-center rounded-full text-white font-semibold">
-                <span className="flex justify-center items-center text-[10px]">
-                  {addCart.length}
-                </span>
-              </span>
-            </Link>
+            
             <div className="md:hidden">
               {!isSignedIn ? (
                 <CgProfile className="block cursor-pointer" />
@@ -200,3 +190,5 @@ console.log(inputValue);
 };
 
 export default Header;
+
+
